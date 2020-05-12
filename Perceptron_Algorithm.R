@@ -1,9 +1,9 @@
-# simple perceptron demo with 2 dimensions
+# simple perceptron demo
 
 #create a data frame
 df <- data.frame(cbind(
   c(-2,-3,-1,-3,-5,-6,2,3,2,1,1,3),
-  c(-2,-3,-2,-1,-4,-3,4,3,2,2,3,4),
+  c(2,-3,-2,-1,-4,-3,4,3,2,2,3,4),
   c(rep(-1,6),rep(1,6))
 ))
 names(df)[3] <- "LABEL"
